@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL WEBSITE</title>
+
+</head>
+<body>
+    <button type="button" onclick="myFunc()">Click me to Display Content</button>
+    <p id="deno">Hello</p>
+    <p id="due"></p>
+    <button type="button" onclick="myFunct">Click to change text</button>
+    <script>
+// Using console.log
+        var x = 5;
+        var y = 6;
+        var z = (x + y);
+        console.log(z);
+// Using document.write
+        var x = 4;
+        var y = 3;
+        var z =(x * y);
+        document.write(z);
+// Using alert box
+        function myFunc(){
+        var a = 7;
+        var b = 8;
+        var c = (a + b);
+        alert (c);
+    }
+// Writing to HTML Element
+        var g = 10;
+        var h = 20;
+        var k = (g * h);
+        document.getElementById("deno").innerHTML= k;
+// Changing text
+    function myFunct(){
+        document.getElementById("due").innerHTML = "I have changed";
+    }
+    
+    
+    </script>
+</body>
+
+</html>
